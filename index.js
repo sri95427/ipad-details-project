@@ -12,6 +12,7 @@ import LogIn from "./component/LogIn";
 import Form from "./component/Form";
 import IpadDetails from "./component/IpadDetails";
 import SelectBox from "./component/SelectBox";
+import 'bootstrap/dist/css/bootstrap.css';
 
 /*function Main() {
   return (

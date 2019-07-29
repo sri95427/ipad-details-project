@@ -58,7 +58,7 @@ class RegisterLogin extends React.Component {
         <div className="reg-login">Login</div>
         <form onSubmit={this.handleSubmit} name="./myForm" action="Form.js">
           <div class="imgcontainer">
-           // <img src={logo} alt="Avatar" class="avatar" />
+            <img src="https://user-images.githubusercontent.com/26623276/62054859-0eef7e80-b238-11e9-9f6a-1b08ca479709.png" alt="Avatar" class="avatar" />
           </div>
           <div className="container">
             <div>

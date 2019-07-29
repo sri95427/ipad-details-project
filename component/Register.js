@@ -66,16 +66,19 @@ class Register extends React.Component {
   render() {
     const { username, password, email } = this.state;
     return (
-      <div>
-        <div className="reg-login">User Registration</div>
-        <form onSubmit={this.handleSubmit} name="./myForm" action="Form.js">
+      <div className="container">
+      <div className="row ">
+        <div className="reg-login col-lg-12">User Registration</div>
+       </div> 
+       <div className="row justify-content-center align-items-center"> 
+        <form onSubmit={this.handleSubmit} name="./myForm" action="Form.js" className=" col-md-4 col-xs-3  justify-content-center align-items-center">
           <div class="imgcontainer">
-            //<img src={logo} alt="Avatar" class="avatar" />
+            <img src="https://user-images.githubusercontent.com/26623276/62054859-0eef7e80-b238-11e9-9f6a-1b08ca479709.png" alt="Avatar" class="avatar" />
           </div>
           <div className="container">
             <div>
               <label>User Name</label>
-              <input
+              <input 
                 // autoFocus
                 type="text"
                 value={username}
@@ -104,6 +107,8 @@ class Register extends React.Component {
           </div>
         </form>
       </div>
+       </div>
+     
     );
   }
 }
